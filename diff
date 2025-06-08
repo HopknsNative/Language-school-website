@@ -1,0 +1,87 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Language School | Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-700 text-white">
+    <div class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-semibold">Language School</h1>
+      <nav class="space-x-4 hidden md:block">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#courses" class="hover:underline">Courses</a>
+        <a href="#company" class="hover:underline">Company Lessons</a>
+        <a href="#teambuilding" class="hover:underline">Teambuilding</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+        <select class="ml-4 p-1 rounded text-black">
+          <option>EN</option>
+          <option>SK</option>
+        </select>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-4">Learn Languages with Confidence</h2>
+      <p class="text-lg mb-6">Fun, professional language courses and summer camps for kids, adults, and companies.</p>
+      <a href="#contact" class="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-800 transition">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Placeholder for More Sections -->
+  <section id="about" class="py-16 max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-semibold mb-4">About Us</h2>
+    <p>We are a passionate team offering fun and effective language education for individuals and companies. From summer camps to team-building workshops, our mission is to make learning engaging and useful.</p>
+  </section>
+
+  <section id="courses" class="py-16 bg-gray-50 max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-semibold mb-4">Courses</h2>
+    <ul class="list-disc list-inside">
+      <li>General English for Adults</li>
+      <li>Kids & Teen Courses</li>
+      <li>Business English</li>
+    </ul>
+  </section>
+
+  <section id="company" class="py-16 max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-semibold mb-4">Company Lessons</h2>
+    <p>We offer customized language training for companies — in-office, online, or hybrid — to help employees improve their English skills in a practical way.</p>
+  </section>
+
+  <section id="teambuilding" class="py-16 bg-gray-50 max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-semibold mb-4">Teambuilding</h2>
+    <p>Fun and educational teambuilding events with a language twist. Perfect for companies looking to boost morale and English skills at the same time.</p>
+  </section>
+
+  <section id="contact" class="py-16 max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-2 border rounded" required>
+      <input type="email" placeholder="Your Email" class="w-full p-2 border rounded" required>
+      <textarea placeholder="Your Message" class="w-full p-2 border rounded" rows="5" required></textarea>
+      <button type="submit" class="bg-blue-700 text-white px-6 py-2 rounded hover:bg-blue-800">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4">
+    <p>&copy; 2025 Language School. All rights reserved.</p>
+  </footer>
+</body>
+</html>
